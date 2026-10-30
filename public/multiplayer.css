@@ -1,0 +1,28 @@
+#mpMenu{position:fixed;inset:0;z-index:40;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at center,#14281a,#050a06);font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#eef3e6;user-select:none}
+#mpMenu .box{width:min(420px,92vw);text-align:center}
+#mpMenu h1{font-size:56px;letter-spacing:12px;font-weight:300;color:#e9f2d8;text-shadow:0 0 30px rgba(140,200,100,.4)}
+#mpMenu .sub{color:#9fb88a;letter-spacing:4px;font-size:12px;margin:6px 0 26px}
+#mpMenu button,#mpHud button,#mpEnd button{font:inherit;cursor:pointer}
+#mpMenu .btn{display:block;width:100%;margin:10px 0;padding:13px;background:rgba(0,0,0,.35);border:2px solid #ffd36b;color:#ffd36b;border-radius:30px;letter-spacing:4px;font-size:14px}
+#mpMenu .btn:hover:not(:disabled){background:#ffd36b;color:#14281a}
+#mpMenu .btn:disabled{opacity:.4;cursor:not-allowed}
+#mpMenu input{width:100%;padding:11px 14px;margin:6px 0;background:rgba(0,0,0,.45);border:1px solid #5d7a4e;border-radius:8px;color:#eef3e6;font:inherit;font-size:15px;text-align:center}
+#mpMenu input.code{letter-spacing:8px;text-transform:uppercase;font-size:22px}
+#mpMenu .lbl{font-size:11px;letter-spacing:3px;color:#9fb88a;margin-top:12px}
+#mpMenu .msg{min-height:20px;font-size:13px;margin-top:10px;color:#ff8a7a}
+#mpMenu .msg.ok{color:#b9e08a}
+#mpMenu .or{color:#6f8a60;margin:8px 0;font-size:12px;letter-spacing:3px}
+#mpMenu .link{background:none;border:0;color:#9fb88a;text-decoration:underline;margin-top:8px;font-size:13px}
+#mpHud{position:fixed;left:22px;bottom:204px;z-index:6;font-size:12px;text-shadow:0 1px 3px #000;pointer-events:none;min-width:150px}
+#mpHud .room{background:rgba(10,16,10,.6);border:1px solid rgba(255,255,255,.25);border-radius:10px;padding:3px 10px;margin-bottom:4px;letter-spacing:2px}
+#mpHud .pl{display:flex;align-items:center;gap:6px;margin-top:2px}
+#mpHud .dot{width:9px;height:9px;border-radius:50%;box-shadow:0 0 0 1px rgba(0,0,0,.6)}
+#mpChat{position:fixed;left:270px;bottom:84px;width:min(380px,50vw);z-index:6;font-size:13px;pointer-events:none}
+#mpChat .m{background:rgba(10,16,10,.55);border-radius:6px;padding:2px 8px;margin-top:2px;text-shadow:0 1px 2px #000;word-break:break-word;transition:opacity 1s}
+#mpChat input{pointer-events:auto;display:none;width:100%;margin-top:4px;padding:6px 10px;background:rgba(0,0,0,.75);border:1px solid #ffd36b;border-radius:6px;color:#fff;font:inherit}
+#mpOv{margin:0 auto 18px;padding:10px 14px;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.2);border-radius:10px;max-width:420px;cursor:default}
+#mpOv .code{font-size:26px;letter-spacing:8px;color:#ffd36b}
+#mpOv button{margin:6px 4px 0;padding:6px 14px;background:transparent;border:1px solid #ffd36b;color:#ffd36b;border-radius:16px;font-size:12px;letter-spacing:2px}
+#mpOv button.red{border-color:#ff8a7a;color:#ff8a7a}
+#mpEnd{position:fixed;inset:0;z-index:50;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.8);color:#eef3e6;text-align:center;font-family:"Segoe UI",sans-serif}
+#mpEnd button{margin-top:16px;padding:10px 26px;background:transparent;border:2px solid #ffd36b;color:#ffd36b;border-radius:24px;letter-spacing:3px}
